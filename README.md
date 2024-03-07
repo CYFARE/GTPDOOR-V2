@@ -3,12 +3,9 @@ GTPDOOR V2 Backdoor Mechanism Implementation In Python
 
 ## Files
 
-1. gtpdv2.py = main backdoor in network
-2. gtpdv2_sender.py = attack script to send c2 commands over crafted gtp
+1. door.py = main backdoor in network
+2. send.py = attack script to send message/command
 
-## Backdoor Code Improvements
-
-Instead of filtering GTP packets on specific IP, all UDP across all network traffic can be filtered in real time.
 
 ## Reference Post
 
